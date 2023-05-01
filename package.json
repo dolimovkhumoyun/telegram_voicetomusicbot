@@ -1,0 +1,20 @@
+{
+  "devDependencies": {
+    "@types/fluent-ffmpeg": "^2.1.21",
+    "@types/node": "^18.16.3",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@grammyjs/conversations": "^1.1.1",
+    "@grammyjs/files": "^1.0.4",
+    "ffmpeg-stream": "^0.7.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "grammy": "^1.16.0"
+  },
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "ts-node-dev --respawn --pretty --transpile-only src/bot.ts ",
+    "test": "ts-node-dev --respawn --pretty --transpile-only src/test.ts ",
+    "build": "tsc"
+  }
+}
