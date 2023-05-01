@@ -23,6 +23,7 @@ bot.use(createConversation(greeting));
 bot.command("start", async (ctx) => console.log("Started"));
 
 bot.command("add", async (ctx) => {
+  await ctx.reply("Hello, you are starting to transfrom voice to music");
   await ctx.conversation.enter("greeting");
 });
 
