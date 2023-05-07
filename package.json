@@ -7,6 +7,7 @@
   "dependencies": {
     "@grammyjs/conversations": "^1.1.1",
     "@grammyjs/files": "^1.0.4",
+    "axios": "^1.4.0",
     "ffmpeg-stream": "^0.7.0",
     "fluent-ffmpeg": "^2.1.2",
     "grammy": "^1.16.0"
